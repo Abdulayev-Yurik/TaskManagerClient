@@ -1,0 +1,8 @@
+<h2>My TaskLists</h2>
+<ul class="taskList">
+  <li *ngFor="let ts of taskLists">
+    <span class="badge">{{ts.id}}</span>
+    <span>{{ts.listName}}</span>
+    <button class="delete">x</button>
+  </li>
+</ul>
